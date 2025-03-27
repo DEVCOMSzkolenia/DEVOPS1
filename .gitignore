@@ -1,0 +1,4 @@
+*.html
+/assets
+/pytest_cache/*
+*.pyc
