@@ -1,0 +1,1 @@
+print("Bardzo skomplikowany serwis")
