@@ -17,5 +17,6 @@ def test_add():
 ])
 def test_param_add(a,b,wynik):
     assert add(a,b) == wynik
-def test_add_not_good():
-    assert add(2,3) == 55
+    
+# def test_add_not_good():
+#     assert add(2,3) == 55
