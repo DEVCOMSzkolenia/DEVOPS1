@@ -23,6 +23,7 @@ pipeline {
                 echo 'docker build -t moja-apka . && docker push moja-apka'
             }
         }
+    }
         post {
             failure {
                 echo 'Testy nie przeszły'
@@ -32,4 +33,3 @@ pipeline {
             }
         }
     }
-}
