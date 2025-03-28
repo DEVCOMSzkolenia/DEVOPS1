@@ -20,7 +20,7 @@ pipeline {
                 }
             }
             steps {
-                echo 'docker build -t moja-apka . && docker push moja-apka'
+                sh 'docker build -t moja-apka . && docker push moja-apka'
             }
         }
     }
